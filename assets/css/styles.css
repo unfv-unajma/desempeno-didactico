@@ -1,0 +1,61 @@
+:root {
+  --color-orange: rgb(249 115 22);
+}
+
+h1 {
+  font-family: Poppins;
+}
+h3 {
+  font-family: Poppins;
+}
+li{
+  font-family: Poppins;
+}
+p{
+  font-family: Poppins;
+}
+.bottom_shadow_orange {
+  background: rgb(254,113,0);
+  background: linear-gradient(180deg, rgba(254,113,0,0.14676364930737917) 60%, rgba(254,113,0,0.4296768145734856) 96%, rgba(254,113,0,0.6201530050496762) 100%);
+}
+.bottom_shadow_secondary {
+  background: rgb(215,215,215);
+  background: linear-gradient(180deg, rgba(215,215,215,0.1439625288591999) 60%, rgba(215,215,215,0.1971838173746061) 96%, rgba(215,215,215,0.7602090274586397) 99%);
+}
+
+.bottom_shadow_blue {
+  background: rgb(44,48,223);
+  background: linear-gradient(180deg, rgba(44,48,223,0.03471883138020837) 60%, rgba(44,48,223,0.41287009188441004) 96%, rgba(44,48,223,0.6313574868423932) 100%);
+}
+
+.section {
+  padding: 1rem .8rem;
+}
+/* container */
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .section {
+    padding: 1.5rem 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
